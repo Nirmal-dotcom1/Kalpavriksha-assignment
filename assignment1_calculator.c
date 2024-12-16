@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Function for performing operations
 int operations(int a, int b, char op) {
     switch (op) {
         case '+': return a + b;
@@ -31,7 +30,6 @@ int precedence(char op) {
     return 0;
 }
 
-// Function to evaluate the expression
 int evaluate(const char *expression) {
     int number_stack[1000], number_top = -1; 
     char operator_stack[1000], operator_top = -1; 
@@ -102,6 +100,10 @@ int main() {
 
     return 0;
 }
+
+
+
+
 
 
 
