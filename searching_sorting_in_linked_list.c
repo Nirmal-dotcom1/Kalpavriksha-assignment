@@ -104,7 +104,7 @@ int search(Node *head, int target)
         current = current->next;
     }
     return 0;
-
+}
     int main()
     {
         Node *head = NULL;
